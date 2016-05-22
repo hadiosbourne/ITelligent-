@@ -11,6 +11,12 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
 
+    /**
+     * Called when the activity is starting. This is where most initialization
+     * should go
+     *
+     * @param savedInstanceState This is the saved instance of the activity
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
